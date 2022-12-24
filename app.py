@@ -4,7 +4,7 @@ from time import sleep
 import threading
 import requests
 
-url = "testapp-service.argocdtest.svc.cluster.local:5000"
+url = "http://testapp-service.argocdtest.svc.cluster.local:5000"
 
 
 app = Flask(__name__)
